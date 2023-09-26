@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+  <title>SSG랜더스</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/632d3e2496.js" crossorigin="anonymous"></script>
+  </head>
+	<body>
+    <header>
+      <div class="wrap">
+        <div class="logo">
+          <a href="#">
+            <img src="images/SSG_Logo1.png" alt="logo">
+          </a>
+        </div>
+        <ul class="menu">
+          <li><a href="#">LANDERS</a></li>
+          <li><a href="#">PLAYER</a></li>
+          <li><a href="#">GAMES</a></li>
+          <li><a href="#">STATS</a></li>
+          <li><a href="#">MEDIA</a></li>
+          <li><a href="#">FAN</a></li>
+          <li><a href="#">로그인</a></li>
+          <li><a href="#">회원가입</a></li>
+          <li class="btn"><a href="#"><img src="images/member.png"></a></li>
+          <li class="btn"><a href="#"><img src="images/ticket1.png"></a></li>
+        </ul>
+      </div>
+    </header>
+  <!--header END-->
+  </body>
+</html>

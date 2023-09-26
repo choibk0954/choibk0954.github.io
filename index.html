@@ -1,0 +1,345 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>SSG_LANDERS</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link href="js/custom.js" rel="stylesheet">
+
+  <script>
+    $(function(){
+      $(".dot > li").click(function(){
+        $(".dot > li").removeClass("on");
+        $(this).addClass("on");
+        var i = $(this).index();
+        $(".slideWrap").stop().animate({"left":-1400*i},500);
+      });
+    })
+  </script>
+
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="logo">
+        <a href="#">
+          <img src="img/SSG_Logo1.png" alt="logo">
+        </a>
+      </div>
+      <ul class="menu">
+        <li>
+          <a href="#">LANDERS</a>
+          <ul class="sub">
+            <li><a href="#">인사말</a></li>
+            <li><a href="#">구단소개</a></li>
+            <li><a href="#">구장소개</a></li>
+            <li><a href="#">구단역사</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">PLAYER</a>
+          <ul class="sub">
+            <li><a href="sub_page1.html">전체선수</a></li>
+            <li><a href="#">SSG 타자</a></li>
+            <li><a href="#">SSG 투수</a></li>
+            <li><a href="#">코칭스태프</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">GAMES</a>
+          <ul class="sub">
+            <li><a href="#">경기일정</a></li>
+            <li><a href="#">경기결과</a></li>
+            <li><a href="#">2군 경기</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">STATS</a>
+          <ul class="sub">
+            <li><a href="#">팀기록</a></li>
+            <li><a href="#">타자기록</a></li>
+            <li><a href="#">투수기록</a></li>
+            <li><a href="#">역대성적</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">MEDIA</a>
+          <ul class="sub">
+            <li><a href="#">선수영상</a></li>
+            <li><a href="#">보도자료</a></li>
+            <li><a href="#">이벤트</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">FAN</a>
+          <ul class="sub">
+            <li><a href="#">소통</a></li>
+            <li><a href="#">응원</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="login">
+        <li><a href="#">로그인</a></li>
+        <li><a href="#">회원가입</a></li>
+        <li class="btn"><a href="#"><img src="img/member.png"></a></li>
+        <li class="btn"><a href="#"><img src="img/ticket1.png"></a></li>
+      </ul>
+    </div>
+    <div class="bg"></div>
+  </header>
+  <!--header END-->
+  <section id="banner">
+    <div class="wrap">
+      <ul class="dot">
+        <li class="on"></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <div class="slideWrap">
+        <div class="slideImg">
+          <img src="img/SSG_Logo2.png" alt="bannerLogo">
+          <h1>2022년 SSG랜더스 구단<br>
+            이벤트 및 공지사항</h1>
+          <button class="btn" type="button">자세히 보기</button>
+        </div>
+        <div class="slideImg">
+          <img src="img/SSG_Logo2.png" alt="bannerLogo">
+          <h1>2022년 SSG랜더스 구단<br>
+          이벤트 및 공지사항</h1>
+          <button class="btn" type="button">자세히 보기</button>
+        </div>
+        <div class="slideImg">
+          <img src="img/SSG_Logo2.png" alt="bannerLogo">
+          <h1>2022년 SSG랜더스 구단<br>
+          이벤트 및 공지사항</h1>
+          <button class="btn" type="button">자세히 보기</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--banner END-->
+  <section id="contents">
+    <div class="wrap">
+      <div class="news">
+        <img src="img/SSG_News.png" alt="News">
+        <h1>LANDERS NEWS</h1>
+      </div>
+      <div class="sec">
+        <div class="box">
+          <a href="#"><img src="img/contents1.png" alt="contents1">
+          <h2>시즌 6경기째 평균자책점 0점대..<br>
+            전설을 써내려가는 그의 기록</h2>
+          <div class="txt">
+            <p>2022-05-13</p>
+            <p>조회수 141,831</p>
+          </a>
+          </div>
+        </div>
+        <div class="box">
+          <a href="#"><img src="img/contents2.png" alt="contents2">
+          <h2>2021 역대 최고령 20-20 클럽 달성<br>
+            여전한 그의 기량</h2>
+          <div class="txt">
+            <p>2022-05-12</p>
+            <p>조회수 101,536</p>
+          </a>
+          </div>
+        </div>
+        <div class="box">
+          <a href="#"><img src="img/contents3.png" alt="contents3">
+          <h2>힘겨웠던 원정 경기 승리 후 선수단의<br>
+            하이파이브!</h2>
+          <div class="txt">
+            <p>2022-05-10</p>
+            <p>조회수 80,831</p>
+            </a>
+            </div>
+          </div>
+        <div class="box">
+          <a href="#"><img src="img/contents4.png" alt="contents4">
+          <h2>2018년 SK 와이번스 시절 마지막<br>
+            우승, V4 그때의 기록</h2>
+          <div class="txt">
+            <p>2022-05-09</p>
+            <p>조회수 128,831</p>
+          </a>
+          </div>
+        </div>
+        <div class="box">
+          <a href="#"><img src="img/contents5.png" alt="contents5">
+          <h2>KBO 역대 홈런 개수 2위 SSG 최정<br>
+            역대 1위 이승엽 넘을까?</h2>
+          <div class="txt">
+            <p>2022-05-08</p>
+            <p>조회수 107,156</p>
+          </a>
+          </div>
+        </div>
+        <div class="box">
+          <a href="#"><img src="img/contents6.png" alt="contents6">
+          <h2>2021년 신설 구단 SSG 랜더스 구단주<br>
+            정용진의 야구에 대한 열정</h2>
+          <div class="txt">
+            <p>2022-05-01</p>
+            <p>조회수 58,277</p>
+          </a>
+          </div>
+        </div>
+        <button class="btn1">+ 더보기</button>
+      </div>
+    </div>
+  </section>
+  <!--contents END-->
+  <section id="event">
+    <div class="wrap">
+      <div class="box1">
+        <div class="event_tit">
+        <h1>구단 소식</h1>
+        <a href="#"><span class="more">더보기 ></span>
+        </a>
+      </div>
+        <div class="clubnews">
+          <a href="#"><div class="clubnews_tit">- SSG 랜더스 김광현, 시즌 5승 달성.....</div>
+          </a>
+          <div class="clubnews_date">2022-05-13</div>
+          <a href="#"><div class="clubnews_tit">- SSG 랜더스 김광현, 시즌 4승 달성.....</div>
+          </a>
+          <div class="clubnews_date">2022-05-11</div>
+          <a href="#"><div class="clubnews_tit">- SSG 랜더스, KIA 타이거즈와 1대2 트...</div>
+          </a>
+          <div class="clubnews_date">2022-05-10</div>
+          <a href="#"><div class="clubnews_tit">- SSG 랜더스, 창단 첫 만원 관중 달성</div>
+          </a>
+          <div class="clubnews_date">2022-05-10</div>
+          <a href="#"><div class="clubnews_tit">- SSG 랜더스, KBO 최초 MLB식 외야.....</div>
+          </a>
+          <div class="clubnews_date">2022-03-29</div>
+          <a href="#"><div class="clubnews_tit">- SSG 랜더스 폰트, 노바 첫 불펜 투구..</div>
+          </a>
+          <div class="clubnews_date">2022-02-16</div>
+          <a href="#"><div class="clubnews_tit">- SSG 랜더스 2022시즌 신규 유니폼 ....</div>
+          </a>
+          <div class="clubnews_date">2022-01-20</div>
+          <a href="#"><div class="clubnews_tit">- SSG 랜더스 2022시즌 코칭스태프 ......</div>
+          </a>
+          <div class="clubnews_date">2022-01-12</div>
+          <a href="#"><div class="clubnews_tit">- SSG 랜더스 2022시즌 선수단 등번호..</div>
+          </a>
+          <div class="clubnews_date">2022-01-06</div>
+          <a href="#"><div class="clubnews_tit">- SSG 랜더스 한유섬, 2022시즌 주장...</div>
+          </a>
+          <div class="clubnews_date">2022-01-03</div>
+        </div>
+      </div>
+
+        <div class="box1">
+          <div class="event_tit">
+          <h1>이벤트</h1>
+          <a href="#"><span class="more">더보기 ></span>
+          </a>
+        </div>
+          <div class="clubnews">
+            <a href="#"><div class="clubnews_tit">- SSG 랜더스 14일 NC전서 이마트24..</div>
+            </a>
+            <div class="clubnews_date">2022-05-10</div>
+            <a href="#"><div class="clubnews_tit">- 이미트 몰리스와 함께하는 도그데이..</div>
+            </a>
+            <div class="clubnews_date">2022-05-10</div>
+            <a href="#"><div class="clubnews_tit">- SSG 랜더스 한유섬, 어린이날 기념 ...</div>
+            </a>
+            <div class="clubnews_date">2022-05-05</div>
+            <a href="#"><div class="clubnews_tit">- SSG 랜더스 추신수, '희망 랜딩 캠페...</div>
+            </a>
+            <div class="clubnews_date">2022-05-03</div>
+            <a href="#"><div class="clubnews_tit">- SSG 랜더스, 어린이날 시리즈 맞아 ...</div>
+            </a>
+            <div class="clubnews_date">2022-05-01</div>
+            <a href="#"><div class="clubnews_tit">- SSG 랜더스, 월트디즈 컴퍼니 코리..</div>
+            </a>
+            <div class="clubnews_date">2022-04-26</div>
+            <a href="#"><div class="clubnews_tit">- SSG 랜더스, 컴투스와 홈런더비 이벤..</div>
+            </a>
+            <div class="clubnews_date">2022-04-20</div>
+            <a href="#"><div class="clubnews_tit">- SSG 랜더스 구단주 정용진, '10연승시..</div>
+            </a>
+            <div class="clubnews_date">2022-04-17</div>
+            <a href="#"><div class="clubnews_tit">- SSG 랜더스, 2022시즌 '랜더스 키즈 ...</div>
+            </a>
+            <div class="clubnews_date">2022-03-27</div>
+            <a href="#"><div class="clubnews_tit">- SSG 랜더스 한유섬, '랜더스 빅 쿠션 ...</div>
+            </a>
+            <div class="clubnews_date">2022-03-22</div>
+          </div>
+        </div>
+      <div class="box1">
+        <div class="event_tit">
+        <h1>팀순위</h1>
+          <img src="img/rank.png" alt="rank">
+        </div>
+      </div>
+  </section>
+  <!--event END-->
+  <section id="under_logo">
+    <div data-slick='{"slidesToshow":7, "slidesToScroll":7}'>
+      <div class="icons">
+        <div class="wrap">
+          <!--이미지그룹-->
+          <div class="partner">
+            <a href="#"><img src="img/under_logo (1).png" alt=""></a>
+            <a href="#"><img src="img/under_logo (2).png" alt=""></a>
+            <a href="#"><img src="img/under_logo (3).png" alt=""></a>
+            <a href="#"><img src="img/under_logo (4).png" alt=""></a>
+            <a href="#"><img src="img/under_logo (5).png" alt=""></a>
+            <a href="#"><img src="img/under_logo (6).png" alt=""></a>
+            <a href="#"><img src="img/under_logo (7).png" alt=""></a>
+            <a href="#"><img src="img/under_logo (8).png" alt=""></a>
+            <a href="#"><img src="img/under_logo (9).png" alt=""></a>
+            <a href="#"><img src="img/under_logo (10).png" alt=""></a>
+            <a href="#"><img src="img/under_logo (11).png" alt=""></a>
+            <a href="#"><img src="img/under_logo (12).png" alt=""></a>
+            <a href="#"><img src="img/under_logo (13).png" alt=""></a>
+            <a href="#"><img src="img/under_logo (14).png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--under_logo END-->
+  <footer>
+    <section id="foot">
+      <div class="leftmemo">
+        <p class="copyright">Copyright 2021 SSG LANDERS  lnc. All Rights Reserved.</p>
+        <h1 style="margin-bottom:5px;">
+        <img src="img/SSG_Logo3.png" alt style="padding:0 20px">
+        <p>SSG LANDERS is operated by SSG LANDERS lnc.</p>
+        </h1>
+        <div class="sns">
+          <a href="#"><img src="img/facebook.png" alt="facebook"></a>
+          <a href="#"><img src="img/twitter.png" alt="twitter"></a>
+          <a href="#"><img src="img/instagram.png" alt="instagram"></a>
+          <a href="#"><img src="img/youtube.png" alt="youtube"></a>
+        </div>
+      </div>
+      <div class="rightmemo">
+        <pre class="rule"><a href="#">이용약관</a>  |  <a href="#">개인정보</a>  |  <a href="#">처리방침</a>  |  <a href="#">이메일주소 무단수집 거부</a>  |  <a href="#">영상정보처리기기 운영, 관리 방침</a></pre>
+        <p class="info">
+        고객센터 : 032-455-2600 <br>
+        주식회사 신세계야구단 대표이사 : 민경삼 <br>
+        경기장 주소 : 인천광역시 미추홀구 매소홀로 618(문학동)
+        </p>
+      </div>
+    </section>
+  </footer>
+<!--footer END-->
+</body>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+</html>

@@ -1,0 +1,38 @@
+/*reset*/
+*{margin:0; padding:0;}
+ul{list-style:none;}
+a{text-decoration: none; color:inherit;}
+
+header{
+  width:1920px; 
+  height:120px;
+  background-color: #971f2c;
+}
+header > .wrap{
+  height:100%;
+  width:1400px;
+  margin: auto;
+  display: flex;
+}
+header > .wrap > .logo{
+  padding-top: 30px;
+  margin-right: 50px;
+  float:left;
+}
+header > .wrap > .menu{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+header > .wrap > .menu > li:first-child{
+  margin-left: 30px;
+}
+header > .wrap > .menu > li{
+  line-height: 120px;
+  font-size: 18px;
+  color:#fff;
+}
+header > .wrap > .menu > li.btn {
+  padding-top:8px;
+}
